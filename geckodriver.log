@@ -1,0 +1,12 @@
+1684165942869	geckodriver	INFO	Listening on 127.0.0.1:55715
+1684165942917	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "44481" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileyAxuqJ"
+1684165944125	Marionette	INFO	Marionette enabled
+1684165944132	Marionette	INFO	Listening on port 33327
+Read port: 33327
+WebDriver BiDi listening on ws://127.0.0.1:44481
+1684165944341	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyAxuqJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44481/devtools/browser/0292811a-5cd5-423c-8276-beb7284908ef
+1684165947445	Marionette	INFO	Stopped listening on port 33327
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
